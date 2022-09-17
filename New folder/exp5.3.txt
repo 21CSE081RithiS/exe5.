@@ -1,0 +1,13 @@
+package package2;
+import package3.*;
+class pack1 extends pack2{
+   
+    public static void main(String args[])
+     {
+         pack1 obj=new pack1();
+         obj.msg();
+         pack1 obj1=new pack1();
+     System.out.println("DEFAULT METHOD CANNOT BE ACCESSED OUTSIDE THE PACKAGE!!");
+     }
+
+}
